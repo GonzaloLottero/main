@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    margin-top: 7vh;
+}
+.complejo {
+    width: 95%;
+    display: fleix;
+    justify-content: center;
+}
+.slogan{
+    margin-top: 2%;
+}
+.caja{
+    margin-top: 1%;
+}
+.menu{
+    margin-top: 3%;
+}
+ul li {
+    list-style-type: none;
+}
+footer{
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.redes{
+    padding-top: 1%;
+    padding-bottom: 1,5%;
+}
+.info-casa{
+    margin-top: 2%;
+}
+.casa{
+    max-width: 50%;
+    max-height: 50%;
+}
