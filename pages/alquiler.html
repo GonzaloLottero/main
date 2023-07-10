@@ -5,104 +5,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alquiler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <title>Alquiler</title>
 </head>
 
 <body>
-    <header>
-        <h1>Luter</h1>
+    <header class="navbar navbar-expand-xl border-1">
+        <div class="container d-flex flex-column">
+            <div class="text-center">
+                <img class="img-fluid w-50 rounded" src="../img/logo5.jpeg" alt="lutter">
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./comprar.html">Comprar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="comprar.html">Comprar</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <section>
-        <article>
-            <img src="../img/depto1.2.jpg.jpg" alt="edificio">
-            <img src="../img/depto1.jpg.jpg" alt="cocina y living">
-            <img src="../img/depto1.1.jpg.jpg" alt="cuarto">
-            <div>
-                <ul>
-                    <li>70 metros</li>
-                    <li>2 ambientes</li>
-                    <li>Con conchera</li>
-                    <li>1 Banos</li>
-                    <li><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6383.01575303407!2d-58.41628345948341!3d-34.578202575133176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684705785256!5m2!1ses!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-                </ul>
-            </div>
-        </article>
-        <article>
-            <img src="../img/depto1.2.jpg.jpg" alt="edificio">
-            <img src="../img/Monoabiente.jpg.jpg" alt="cocina y cuarto">
-            <div>
-                <ul>
-                    <li>45 metros</li>
-                    <li>monoamiente</li>
-                    <li>Sin cochera</li>
-                    <li>1 Banos</li>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6383.01575303407!2d-58.41628345948341!3d-34.578202575133176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684705785256!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </ul>
-            </div>
-        </article>
-        <article>
-            <img src="../img/depto2.jpg.jpg" alt="edificio">
-            <img src="../img/depto2.1.jpg.jpg" alt="pileta">
-            <img src="../img/depto2.3.jpg.jpg" alt="cocina">
-            <img src="../img/depto2.4.jpg.jpg" alt="living">
-            <img src="../img/depto2.5.jpg" alt="cuarto">
-            <div>
-                <ul>
-                    <li>120 metros</li>
-                    <li>3 ambientes</li>
-                    <li>2 Banos</li>
-                    <li>Con cochera</li>
-                    <li>Pileta</li>
-                    <li>Gimnasio</li>
-                    <li><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6382.9050356900625!2d-58.40571412500878!3d-34.57964436153227!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684705876567!5m2!1ses!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-                </ul>
-            </div>
-        </article>
+    <section data-aos="fade-right" class="container-fluid text-center">
+        <div class="row">
+            <article class="col-xl-6">
+                <div id="carouselExample3" class="carousel slide">
+                    <div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..//img/depto1.2.jpg" class="d-block w-100 casas" alt="edificio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/depto1.1.jpg" class="d-block w-100 casas" alt="cuarto">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>70 metros</li>
+                            <li>2 ambientes</li>
+                            <li>Con conchera</li>
+                            <li>1 Banos</li>
+                        </ul>
+                    </div>
+            </article>
+            <article data-aos="fade-right" class="col-xl-6">
+                <div id="carouselExample2" class="carousel slide">
+                    <div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..//img/depto1.2.jpg" class="d-block w-100 casas" alt="edificio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/monoambiente.jpg" class="d-block w-100 casas" alt="cocina y cuarto">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>git
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>45 metros</li>
+                            <li>monoamiente</li>
+                            <li>Sin cochera</li>
+                            <li>1 Banos</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="fade-right" class="col-xl-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..//img/depto2.jpg" class="d-block w-100 casas" alt="edificio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/depto2.1.jpg" class="d-block w-100 casas" alt="pileta">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img//depto2.3.jpg" class="d-block w-100 casas" alt="cocina">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/depto2.4.jpg" class="d-block w-100 casas" alt="living">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/depto2.5.jpg" class="d-block w-100 casas" alt="cuarto">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <ul>
+                            <li>120 metros</li>
+                            <li>3 ambientes</li>
+                            <li>2 Banos</li>
+                            <li>Con cochera</li>
+                            <li>Pileta</li>
+                            <li>Gimnasio</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
-    <footer>
-        <div>
-            <h5>Redes sociales</h5>
-            <ul>
-                <li>facebook</li>
-                <li>instragram</li>
-                <li>youtube</li>
-                <li>tick tock</li>
-            </ul>
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xl-6">
+                <h5 class="text-center">Redes sociales</h5>
+                <ul class="text-center">
+                    <li>Facebook</li>
+                    <li>Instragram</li>
+                    <li>Youtube</li>
+                    <li>Tick tock</li>
+                </ul>
+            </div>
+            <div class="col-xl-6">
+                <h5>Como ubicarnos</h5>
+                <ul>
+                    <li>Mail</li>
+                    <li>Telefono</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h5>Como ubicarnos</h5>
-            <ul>
-                <li>Mail</li>
-                <li>telefono</li>
-                <li>WhatsApp</li>
-            </ul>
-        </div>
-        <div>
-            <h5>Ubicacion</h5>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59002.03346003975!2d-58.43143760102186!3d-34.57121742764719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335bd8305e7a9%3A0xc41a764ce655671f!2sGlobant%20Tower!5e0!3m2!1ses!2sar!4v1684456799930!5m2!1ses!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

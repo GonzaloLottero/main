@@ -5,75 +5,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <title>Nosotros</title>
+
 </head>
 
 <body>
-    <header>
-        <h1>Luter</h1>
+    <header class="navbar navbar-expand-xl border-1">
+        <div class="container d-flex flex-column">
+            <div class="text-center">
+                <img class="img-fluid w-50 h-50 rounded" src="../img/logo5.jpeg" alt="lutter">
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./comprar.html">Comprar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./alquiler.html">Alquiler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="comprar.html">Comprar</a></li>
-            <li><a href="alquiler.html">Alquiler</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <section>
-        <article>
-            <img src="../img/persona.jpg" alt="hombre">
-            <li>Esteban Calbia</li>
-            <li>Fundador y director</li>
-            <li>37 Anos</li>
-        </article>
-        <article>
-            <img src="../img/persona3.jpg" alt="hombre">
-            <li>Tomas Vilche</li>
-            <li>Gerente de Finanzas</li>
-            <li>33 Anos</li>
-        </article>
-        <article>
-            <img src="../img/persona1.jpg" alt="hombre">
-            <li>Eduardo Gonzalesz</li>
-            <li>Gerente de Negocio</li>
-            <li>39 Anos</li>
-        </article>
-        <article>
-            <img src="../img/mujer.jpg" alt="mujer">
-            <li>Florencia Nogues</li>
-            <li>Gerenta de RRHHr</li>
-            <li>29 Anos</li>
-        </article>
+    <section class="container-fluid  ">
+        <div class="row">
+            <article class="col-xl-6 mx-auto">
+                <div class="d-flex justify-content-center">
+                    <div data-aos="zoom-in" class="card" style="width: 18rem;">
+                        <img src="../img/persona.jpg" class="card-img-top" alt="hombre">
+                        <div class="card-body text-center">
+                            <ul class="text-left">
+                                <li>Esteban Calbia</li>
+                                <li>Fundador y director</li>
+                                <li>37 Años</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-xl-6 mx-auto hombre">
+                <div data-aos="zoom-in" class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/persona3.jpg" class="card-img-top" alt="hombre">
+                        <div class="card-body text-center">
+                            <ul class="text-left">
+                                <li>Tomas Vilche</li>
+                                <li>Gerente de Finanzas</li>
+                                <li>33 Años</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="row contacto">
+            <article class="col-xl-6 mx-auto">
+                <div data-aos="zoom-in" class="d-flex justify-content-center">
+                    <div class="card d-flex" style="width: 18rem;">
+                        <img src="../img/hombre.jpg" class="card-img-top" alt="hombre">
+                        <div class="card-body text-center">
+                            <ul class="text-left">
+                                <li>Eduardo Gonzales</li>
+                                <li>Gerente de Negocio</li>
+                                <li>39 Años</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-xl-6 mx-auto mujer">
+                <div data-aos="zoom-in" class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/mujer.jpg" class="card-img-top" alt="mujer">
+                        <div class="card-body text-center">
+                            <ul class="text-left">
+                                <li>Florencia Nogues</li>
+                                <li>Gerenta de RRHH</li>
+                                <li>29 Años</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
-    <footer>
-        <div>
-            <h5>Redes sociales</h5>
-            <ul>
-                <li>facebook</li>
-                <li>instragram</li>
-                <li>youtube</li>
-                <li>tick tock</li>
-            </ul>
-        </div>
-        <div>
-            <h5>Como ubicarnos</h5>
-            <ul>
-                <li>Mail</li>
-                <li>telefono</li>
-                <li>WhatsApp</li>
-            </ul>
-        </div>
-        <div>
-            <h5>Ubicacion</h5>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59002.03346003975!2d-58.43143760102186!3d-34.57121742764719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335bd8305e7a9%3A0xc41a764ce655671f!2sGlobant%20Tower!5e0!3m2!1ses!2sar!4v1684456799930!5m2!1ses!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xl-6">
+                <h5>Redes sociales</h5>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instragram</li>
+                    <li>Youtube</li>
+                    <li>Tick tock</li>
+                </ul>
+            </div>
+            <div class="col-xl-6">
+                <h5>Como ubicarnos</h5>
+                <ul>
+                    <li>Mail</li>
+                    <li>Telefono</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
