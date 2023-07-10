@@ -11,8 +11,13 @@ header {
 main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.casas{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 section{
-    margin-top: 7vh;
+    margin-top: 4vh;
 }
 .complejo {
     width: 95%;
@@ -31,6 +36,10 @@ section{
 ul li {
     list-style-type: none;
 }
+a:hover{
+    font-size: 2.5vh;
+    font-weight: bold;
+}
 footer{
     background-color: lightblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -47,4 +56,22 @@ footer{
 .casa{
     max-width: 50%;
     max-height: 50%;
+}
+.contacto{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.mujer{
+    margin-top: 2vh;
+}
+.hombre{
+    margin-top: 2vh;
+}
+.boton:hover{
+    background-color: lightblue;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+div .msj{
+    margin-top: 1vh;
 }
